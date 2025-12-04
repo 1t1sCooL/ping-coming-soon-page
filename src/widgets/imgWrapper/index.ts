@@ -1,0 +1,1 @@
+export { ImgWrapper } from './ui/ImgWrapper.tsx'

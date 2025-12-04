@@ -1,0 +1,13 @@
+.imgWrapper{
+    width: 89%;
+    margin-bottom: 4.2rem;
+}
+.imgWrapper img{
+    width: 100%;
+}
+@media(width < 1000px){
+    .imgWrapper{
+        width: 86%;
+        margin-bottom: 7rem;
+    }
+}
