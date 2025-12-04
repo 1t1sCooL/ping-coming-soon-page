@@ -1,0 +1,14 @@
+.svg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: solid 1px hsla(0, 0%, 59%, 20%);
+}
+.svg img{
+    display: block;
+    width: 55%;
+    align-self: center;
+}

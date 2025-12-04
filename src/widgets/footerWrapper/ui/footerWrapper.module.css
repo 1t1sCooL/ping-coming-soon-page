@@ -1,0 +1,24 @@
+.svgWrapper{
+    gap: .7rem;
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    margin-bottom: .9rem;
+}
+
+.footerWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.footerWrapper p{
+    font-size: .68rem;
+    color: var(--Gray400);
+}
+@media(width < 1000px){
+    .footerWrapper p{
+        margin-top: 1.1rem;
+        font-size: .55rem;
+    }
+}

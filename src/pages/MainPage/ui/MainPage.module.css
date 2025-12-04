@@ -1,0 +1,43 @@
+.container{
+    padding: 5.5rem 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.container h1{
+    font-size: 2.9rem;
+    letter-spacing: 1.5px;
+    font-weight: 300;
+    color: var(--Gray400);
+    margin: 0;
+}
+.container h1 span {
+    font-weight: 700;
+    color: var(--Blue950);
+}
+.container p{
+    font-size: 1.2rem;
+    letter-spacing: .5px;
+    color: var(--Blue950);
+    margin-bottom: 2.5rem;
+}
+
+@media(width < 1000px){
+    .container{
+        width: 100vw;
+    }
+    .container h1{
+        font-size: 1.4rem;
+        letter-spacing: 0;
+        margin-bottom: .45rem;
+    }
+    .container p{
+        font-size: .7rem;
+        margin-bottom: 2rem;
+    }
+
+}
