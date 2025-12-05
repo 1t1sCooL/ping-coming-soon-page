@@ -2,13 +2,23 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 30px;
-    height: 30px;
+    width: 32px;
+    height: 32px;
+    background-color: white;
     border-radius: 50%;
     border: solid 1px hsla(0, 0%, 59%, 20%);
+    cursor: pointer;
+    transition: background-color .3s;
 }
-.svg img{
+.svg svg{
     display: block;
-    width: 55%;
+    width: 60%;
     align-self: center;
+}
+.svg:hover svg path{
+    background-color: #4f7df3;
+    fill: white;
+}
+.svg:hover{
+    background-color: #4f7df3;
 }

@@ -2,7 +2,6 @@
     gap: .7rem;
     display: flex;
     justify-content: center;
-    width: 70%;
     margin-bottom: .9rem;
 }
 
@@ -15,6 +14,7 @@
 .footerWrapper p{
     font-size: .68rem;
     color: var(--Gray400);
+    cursor: pointer;
 }
 @media(width < 1000px){
     .footerWrapper p{
