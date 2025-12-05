@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Vercel](https://ping-coming-soon-page-fawn.vercel.app/)
+- Live Site URL: [mmalabugin.ru/PingComingSoonPage](https://mmalabugin.ru/PingComingSoonPage/)
 
 ## My process
 
