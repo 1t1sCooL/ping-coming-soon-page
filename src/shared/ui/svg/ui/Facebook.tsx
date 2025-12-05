@@ -1,6 +1,6 @@
 import styles from "./svg.module.css";
 
-export const Facebook = ({SM}:SvgProps) => {
+export const Facebook = () => {
     return (
         <div className={styles.svg}>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
