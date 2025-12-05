@@ -1,6 +1,6 @@
 import styles from "./svg.module.css";
 
-export const Instagram = ({SM}:SvgProps) => {
+export const Instagram = () => {
     return (
         <div className={styles.svg}>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
