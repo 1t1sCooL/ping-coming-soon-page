@@ -1,0 +1,23 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: ping-coming-soon-page
+  namespace: default
+  annotations:
+    kubernetes.io/ingress.class: "traefik"
+spec:
+  rules:
+    - host: mmalabugin.ru
+      http:
+        paths:
+          - path: /PingComingSoonPage
+            pathType: Prefix
+            backend:
+              service:
+                name: ping-coming-soon-page
+                port:
+                  number: 80
+  tls:
+    - hosts:
+        - mmalabugin.ru
+      secretName: main-page-tls
