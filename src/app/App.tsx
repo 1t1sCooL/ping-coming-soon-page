@@ -8,7 +8,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path='/PingComingSoonPage/' element={<MainPage/>} />
+        <Route path='/' element={<MainPage/>} />
       </Routes>
       <ToastContainer position='bottom-right' autoClose={3000} />
     </BrowserRouter>
